@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(/public/images/monaco-wallpaper.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.labels{
+  font-size: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.filter-group{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-left: 0.5rem;
+}
+.item-grid {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  row-gap: 1rem;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+.name{
+  font-size: 18px;
+}
+.no-drivers{
+  text-align: center;
+  padding-top: 3rem;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.back-to-top{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  color: red;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown-menu {
+  max-height: 15rem;
+  overflow-y: scroll;
 }
