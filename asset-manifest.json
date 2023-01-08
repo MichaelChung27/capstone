@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/capstone/static/css/main.7c7d9502.css",
-    "main.js": "/capstone/static/js/main.2375b57b.js",
+    "main.css": "/capstone/static/css/main.5cfa7648.css",
+    "main.js": "/capstone/static/js/main.2b1f1233.js",
     "static/media/monaco-wallpaper.png": "/capstone/static/media/monaco-wallpaper.37a806fef4c163858004.png",
     "index.html": "/capstone/index.html",
-    "main.7c7d9502.css.map": "/capstone/static/css/main.7c7d9502.css.map",
-    "main.2375b57b.js.map": "/capstone/static/js/main.2375b57b.js.map"
+    "main.5cfa7648.css.map": "/capstone/static/css/main.5cfa7648.css.map",
+    "main.2b1f1233.js.map": "/capstone/static/js/main.2b1f1233.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c7d9502.css",
-    "static/js/main.2375b57b.js"
+    "static/css/main.5cfa7648.css",
+    "static/js/main.2b1f1233.js"
   ]
 }
