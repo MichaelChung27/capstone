@@ -42,7 +42,13 @@ body {
   bottom: 40px;
   right: 40px;
   color: red;
+  opacity: 60%;
 }
+.back-to-top:hover{
+  opacity: 100%;
+  color: red;
+}
+
 .dropdown-menu {
   max-height: 15rem;
   overflow-y: scroll;

@@ -79,12 +79,6 @@ export function NavbarItem({addTeamFilter, addRegionFilter, removeTeamFilter, re
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto" navbarScroll>
-        {/* <NavDropdown title="Key" id="collasible-nav-dropdown">
-          <Dropdown.ItemText className="labels">W - Wins</Dropdown.ItemText>
-          <Dropdown.ItemText className="labels">P - Podiums</Dropdown.ItemText>
-          <Dropdown.ItemText className="labels">Pts - Points</Dropdown.ItemText>
-        </NavDropdown> */}
-
         <NavDropdown title="Drivers" id="collasible-nav-dropdown">
             <div className="filter-group">
               {driversFilters.map(({ name }, index) => {
