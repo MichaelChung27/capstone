@@ -37,7 +37,6 @@ function App() {
     setCheckedTeamFilter(updatedCheckedState);
   }
 
-  //rn it just does or operation. Should possibly do and Operation?
   const filterByTeam = item => {
     if (teamFilters.length === 0) {
       return true;

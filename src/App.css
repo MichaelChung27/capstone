@@ -47,9 +47,22 @@ body {
 .back-to-top:hover{
   opacity: 100%;
   color: red;
+  cursor: pointer;
 }
 
 .dropdown-menu {
   max-height: 15rem;
   overflow-y: scroll;
+}
+
+.favorites{
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  color: #E4A11B;
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: 210px;
+  margin-top: -46px;
+  z-index: 2;
 }
